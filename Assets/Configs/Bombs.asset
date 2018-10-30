@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db31890ae464d1f963d2a5d06e0d2e8, type: 3}
+  m_Name: Bombs
+  m_EditorClassIdentifier: 
+  bombs:
+  - {fileID: 114821351779936302, guid: 2b7e1292023f5423787eafe981f99943, type: 2}
+  - {fileID: 114706773306481222, guid: 4b133c1d9871240e997c919fbe825762, type: 2}
+  bombTime: 3
