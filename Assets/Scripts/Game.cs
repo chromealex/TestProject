@@ -27,7 +27,7 @@ public class Game : MonoBehaviour {
 
                 if (GUILayout.Button("Spawn Unit") == true) {
 
-                    if (this.battle.input.DoUnitSpawn(Random.Range(0, this.unitsConfig.GetCount()), new Vector3(1f, 0f, 2f)/*this.battle.map.GetRandomPointOnLandAndEmpty()*/) == true) { 
+                    if (this.battle.input.DoUnitSpawn(Random.Range(0, this.unitsConfig.GetCount()), this.battle.map.GetRandomPointOnLandAndEmpty()) == true) { 
                     
                         Debug.Log("Spawned");
                     
