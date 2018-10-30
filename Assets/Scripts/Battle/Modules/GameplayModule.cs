@@ -111,7 +111,7 @@ namespace TestProject.Gameplay {
 
         public override void UpdateLogic(float deltaTime) {
 
-            base.UpdateVisual(deltaTime);
+            base.UpdateLogic(deltaTime);
 
             for (int i = 0, count = this.units.Count; i < count; ++i) {
 
